@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-  name: webserver
+  name: web-server
 spec:
   selector:
     matchLabels:
-      name: webserver
+      name: web-server
   template:
     metadata:
       labels:
